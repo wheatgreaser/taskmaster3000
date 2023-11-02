@@ -1,9 +1,13 @@
-import './App.css'
-
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import MainContent from './MainContent'
 export default function App() {
   return (
-    <main>
-      taskmaster3000
-    </main>
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
   )
 }
